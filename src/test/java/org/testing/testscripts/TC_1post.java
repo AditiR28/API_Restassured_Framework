@@ -13,11 +13,11 @@ import java.util.Properties;
 
 import  org.testing.teststeps.postmethod;
 public class TC_1post {
-	static String returnidValue;
+	public static String returnidValue;
 
 	public  void testcase1() throws IOException {
-		Properties pr = properties.loadpropertiesFile("url folder loation"); // url properties
-	String requestBody =jsonhandle.loadJsonFile("request payload json");/// requestpayload json file location
+		Properties pr = properties.loadpropertiesFile("url properties"); // url properties
+	String requestBody =jsonhandle.loadJsonFile(" url properties");/// requestpayload json file location
 	//Random r = new Random();
 	//Integer idValue = r.nextInt();
 	

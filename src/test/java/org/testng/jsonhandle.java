@@ -19,6 +19,7 @@ public class jsonhandle {
 			JSONTokener js = new JSONTokener(fi);
 			JSONObject j = new JSONObject(js);
 			return j.toString();
+			
 		}
 	
 

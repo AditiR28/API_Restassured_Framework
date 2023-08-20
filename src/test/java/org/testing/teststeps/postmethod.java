@@ -75,6 +75,20 @@ public class postmethod {
 	    return res;
 
 	}
+	public Response Deletemethod(String urikeyname,String endPoint) {
+		String uriValue = pr.getProperty(urikeyname)+"/"+endPoint;
+		Response res=
+		given()
+		.contentType(ContentType.JSON)
+		.when()
+		.delete(uriValue);
+		System.out.println("Status code is");
+	    System.out.println(res.statusCode());
+	    System.out.println("Response status is");
+	    System.out.println(res.asString());
+	    return res;
+
+	}
 
 
 }

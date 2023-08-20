@@ -11,10 +11,10 @@ import io.restassured.response.Response;
 
 public class TC2_GetRequest {
 	public void testcase2() throws IOException {
-		Properties pr = properties.loadpropertiesFile("url folder location"); // url properties
+		Properties pr = properties.loadpropertiesFile("url properties"); // url properties
 		postmethod post = new postmethod(pr);
         Response res= post.getmethod("URL_1");
-       jsonparsingorgjson.jsonprase(res.asString(), "id"); //jsonparsing...
+
      
 
 

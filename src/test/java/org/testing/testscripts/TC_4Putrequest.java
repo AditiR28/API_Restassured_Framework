@@ -16,8 +16,8 @@ public class TC_4Putrequest {
 		static String returnidValue;
 
 		public  void testcase4() throws IOException {
-			Properties pr = properties.loadpropertiesFile("C:\\Users\\Dell\\OneDrive\\Desktop\\API_Restassured_Framework\\url.properties"); // url properties
-		String requestBody =jsonhandle.loadJsonFile("C:\\Users\\Dell\\OneDrive\\Desktop\\API_Restassured_Framework\\src\\test\\java\\org\\testing\\resources\\updaterequestpayloadd.json");/// requestpayload json file location
+			Properties pr = properties.loadpropertiesFile("url properties"); // url properties
+		String requestBody =jsonhandle.loadJsonFile("updaterequestpayload");/// requestpayload json file location
 		
 		requestBody = jsonreplacement.assignVariableValue(requestBody, "id", TC_1post.returnidValue);
 		postmethod post = new postmethod(pr);
@@ -26,6 +26,7 @@ public class TC_4Putrequest {
 			
 
 		}
+		
 
 	}
 

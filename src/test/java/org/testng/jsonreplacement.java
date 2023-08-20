@@ -10,6 +10,7 @@ public class jsonreplacement {
 	public static String assignVariableValue(String requestBody,String variableName,String variableValue ) {
 	 requestBody=	requestBody.replaceAll(Pattern.quote("{{"+"variableName"+"}}"),variableValue);
 	 return requestBody;
+	 
 		
 
 	}
