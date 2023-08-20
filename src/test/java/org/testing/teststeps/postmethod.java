@@ -60,6 +60,21 @@ public class postmethod {
 	    return res;
 
 	}
+	public Response putmethod(String requestbody,String urikeyname,String endPoint) {
+		String uriValue = pr.getProperty(urikeyname)+"/"+endPoint;
+		Response res=
+		given()
+		.contentType(ContentType.JSON)
+		.body(requestbody)
+		.when()
+		.put(uriValue);
+		System.out.println("Status code is");
+	    System.out.println(res.statusCode());
+	    System.out.println("Response status is");
+	    System.out.println(res.asString());
+	    return res;
+
+	}
 
 
 }
