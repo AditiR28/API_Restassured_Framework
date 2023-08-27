@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-27T11:21:52Z" name="Suite" finished-at="2023-08-27T11:21:55Z" duration-ms="3239">
+    <groups>
+    </groups>
+    <test started-at="2023-08-27T11:21:52Z" name="Test" finished-at="2023-08-27T11:21:55Z" duration-ms="3239">
+      <class name="org.testing.testscripts.TC_3GetParticularID">
+        <test-method signature="testcase3()[pri:0, instance:org.testing.testscripts.TC_3GetParticularID@7c214cc0]" started-at="2023-08-27T16:51:54Z" name="testcase3" finished-at="2023-08-27T16:51:55Z" duration-ms="1067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- org.testing.testscripts.TC_3GetParticularID -->
+      <class name="org.testing.testscripts.TC_5Deleterequest">
+        <test-method signature="testcase5()[pri:0, instance:org.testing.testscripts.TC_5Deleterequest@609db546]" started-at="2023-08-27T16:51:55Z" name="testcase5" finished-at="2023-08-27T16:51:55Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+      </class> <!-- org.testing.testscripts.TC_5Deleterequest -->
+      <class name="org.testing.testscripts.TC_1post">
+        <test-method signature="testcase1()[pri:0, instance:org.testing.testscripts.TC_1post@6e005dc9]" started-at="2023-08-27T16:51:52Z" name="testcase1" finished-at="2023-08-27T16:51:54Z" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- org.testing.testscripts.TC_1post -->
+      <class name="org.testing.testscripts.TC2_GetRequest">
+        <test-method signature="testcase2()[pri:0, instance:org.testing.testscripts.TC2_GetRequest@59e32960]" started-at="2023-08-27T16:51:54Z" name="testcase2" finished-at="2023-08-27T16:51:54Z" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- org.testing.testscripts.TC2_GetRequest -->
+      <class name="org.testing.testscripts.TC_4Putrequest">
+        <test-method signature="testcase4()[pri:0, instance:org.testing.testscripts.TC_4Putrequest@5b67bb7e]" started-at="2023-08-27T16:51:55Z" name="testcase4" finished-at="2023-08-27T16:51:55Z" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+      </class> <!-- org.testing.testscripts.TC_4Putrequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

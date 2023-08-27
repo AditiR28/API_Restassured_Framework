@@ -8,7 +8,7 @@ import org.testing.testscripts.TC2_GetRequest;
 import org.testing.testscripts.TC_1post;
 import org.testing.testscripts.TC_3GetParticularID;
 import org.testing.testscripts.TC_4Putrequest;
-import org.testing.teststeps.TC_5Deleterequest;
+import org.testing.testscripts.TC_5Deleterequest;
 
 public class runner {
 	

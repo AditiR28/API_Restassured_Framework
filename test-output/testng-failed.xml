@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.testscripts.TC_3GetParticularID">
+        <methods>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC_3GetParticularID -->
+      <class name="org.testing.testscripts.TC_4Putrequest">
+        <methods>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC_4Putrequest -->
+      <class name="org.testing.testscripts.TC_5Deleterequest">
+        <methods>
+          <include name="testcase5"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC_5Deleterequest -->
+      <class name="org.testing.testscripts.TC_1post">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC_1post -->
+      <class name="org.testing.testscripts.TC2_GetRequest">
+        <methods>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- org.testing.testscripts.TC2_GetRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
